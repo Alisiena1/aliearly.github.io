@@ -3,7 +3,24 @@ title: "Curriculum Vitae"
 output: html_document
 ---
 
-## **Current Roles**
+### Summary of Professional Experiences
+
+Ali Early is a Master of Public Health candidate in Population and Family Health at Columbia University’s Mailman School of Public Health, where she is pursuing a certificate in Public Health Research Methods. She works as a Public Health Analyst at RTI International’s Center for Engagement Science and Applied Communication Research, supporting and coordinating mixed‑methods research on projects funded by the CDC, FDA, and NIH. She also serves as a Graduate Research Assistant with the New York Community‑Hospital‑Academic Maternal Health Equity Partnership (NY-CHAMP) Study, leading qualitative evaluation efforts focused on postpartum mental and cardiovascular health through focus groups with intervention doulas, in‑depth interviews (IDIs) with patients, and literature synthesis. Her research interests include reproductive, maternal, and child health, HIV and STD prevention, and mental health and behavioral disorders. Ms. Early has authored peer‑reviewed publications, presented at national conferences, and served as a guest speaker on a public health podcast. 
+
+<br>
+
+### Summary of Academic Experiences
+
+* MPH Candidate, Population and Family Health, Certificate in Public Health Research Methods, Columbia University, New York, New York, Anticipated graduation in May 2027. 
+
+* BA, Psychology, North Carolina State University, Raleigh, NC, May 2022. 
+
+
+<br>
+<br>
+
+### **Current Roles**
+
 
 #### **Columbia University, Mailman School of Public Health, New York, NY**
 
@@ -39,8 +56,9 @@ Public Health Analyst II (August 2023 – Present)
 * Formulate and implement innovative communication strategies, including the development of survey instruments, social media listening analyses, and targeted messaging assets for diverse populations.
 
 
-
-
+<br>
+<br>
+<br>
 
 
 #### *Skills*
@@ -52,4 +70,12 @@ Public Health Analyst II (August 2023 – Present)
 
 
 #### *Interests*
-* International travel, Hot yoga, Vegetarian cooking, Classical ballet, Knitting
+* Hot yoga, Vegetarian cooking, Knitting, Vanderpump Rules, vanilla matcha
+<br>
+<br>
+
+#### My LetterBoxd Top Four
+1. [10 Things I Hate About You](https://www.imdb.com/title/tt0147800/)
+2. [A Star is Born](https://www.imdb.com/title/tt1517451/?ref_=fn_t_1)
+3. [Sliver Linings Playbook](https://www.imdb.com/title/tt1045658/?ref_=fn_t_1)
+4. [Meet the Robinsons](https://www.imdb.com/title/tt0396555/?ref_=fn_t_1)
