@@ -1,23 +1,29 @@
----
 name: "About Ali Early"
 output_dir: "."
+site: rmarkdown::default_site
 output:
   html_document:
     theme: flatly
-    highlight: textmate
+    includes:
+      in_header: header.html
 navbar:
-  title: "Home"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: home_index.html
+    - text: "Resume"
+      icon: fa-file-text
+      href: "resume.pdf"
   right:
     - text: "Email"
+      icon: fa-envelope fa-lg
       href: mailto:ase2146@cumc.columbia.edu
     - text: "LinkedIn"
-      href: https://www.linkedin.com/in/ali-early/ 
+      icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/ali-early/
     - text: "ORCID"
+      icon: fa-orcid fa-lg
       href: https://orcid.org/0000-0001-7325-9505
     - text: "GitHub"
+      icon: fa-github fa-lg
       href: https://github.com/Alisiena1
-    - text: "Most Recent Publication"
-      href: https://pubmed.ncbi.nlm.nih.gov/38279576/
-    - text: "Song Rec of the Week!"
-      href: https://open.spotify.com/track/7jvCeWOSnJs2N3spqobWnO?si=892cd09116814559
----

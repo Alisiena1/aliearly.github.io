@@ -3,12 +3,12 @@ title: "About Ali Early"
 output: html_document
 ---
 
-
 ### Welcome
 
 Hi there! Thanks for stopping by my site. 
 
-This website serves as my professional portfolio for **P8105 (Data Science I)**. 
+
+This website serves as my professional portfolio for **[P8105 (Data Science I)](https://p8105.com/index.html)** at the [Mailman School of Public Health](https://www.publichealth.columbia.edu). 
 
 
 

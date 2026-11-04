@@ -1,5 +1,4 @@
 ---
-title: "About Ali Early"
-output: html_document
-site: rmarkdown::website_generator
+output_dir: "."
+site: rmarkdown::site
 ---
