@@ -9,7 +9,7 @@ output:
 <br>
 <br>
 
-#### *Task*
+#### **Task**
 Created a flexdashboard using plotly for that includes a scatterplot, line plot, and box plot as well as results related to NOAA data in NY from 1981 to 2010.
 
 <br>
