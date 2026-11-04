@@ -1,18 +1,26 @@
 ---
 title: "About Ali Early"
-author: "Ali Early"
-date: "2026-11-03"
 output: html_document
 ---
 
-# **About Ali Early**
+
+### Welcome
+
+Hi there! Thanks for stopping by my site. 
+This website serves as my professional portfolio for **P8105 (Data Science I)**. 
+
+
+
 
 ### Summary of Professional Experiences
 
 Ali Early is a Master of Public Health candidate in Population and Family Health at Columbia University’s Mailman School of Public Health, where she is pursuing a certificate in Public Health Research Methods. She works as a Public Health Analyst at RTI International’s Center for Engagement Science and Applied Communication Research, supporting and coordinating mixed‑methods research on projects funded by the CDC, FDA, and NIH. She also serves as a Graduate Research Assistant with the New York Community‑Hospital‑Academic Maternal Health Equity Partnership (NY-CHAMP) Study, leading qualitative evaluation efforts focused on postpartum mental and cardiovascular health through focus groups with intervention doulas, in‑depth interviews (IDIs) with patients, and literature synthesis. Her research interests include reproductive, maternal, and child health, HIV and STD prevention, and mental health and behavioral disorders. Ms. Early has authored peer‑reviewed publications, presented at national conferences, and served as a guest speaker on a public health podcast. 
 
 
+
+
 ### Summary of Academic Experiences
 
-- MPH Candidate, Population and Family Health, Certificate in Public Health Research Methods, Columbia University, New York, New York, Anticipated graduation in May 2027. 
-BA, Psychology, North Carolina State University, Raleigh, NC, May 2022. 
+* MPH Candidate, Population and Family Health, Certificate in Public Health Research Methods, Columbia University, New York, New York, Anticipated graduation in May 2027. 
+
+* BA, Psychology, North Carolina State University, Raleigh, NC, May 2022. 

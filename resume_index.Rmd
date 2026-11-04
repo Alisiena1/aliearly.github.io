@@ -1,49 +1,66 @@
 ---
-title: "Resume"
-author: "Ali Early"
-date: "2026-11-03"
+title: "Curriculum Vitae"
 output: html_document
 ---
 
-# **Current Roles**
+## **Current Roles**
 
-1. Columbia University, Mailman School of Public Health, New York, NY
+1. **Columbia University, Mailman School of Public Health, New York, NY**
+
 Graduate Teaching Assistant (August 2026 – Present)
--Facilitate instruction and managed grading for 60+ first-year MPH candidates in Qualitative Foundations, guiding them through key qualitative research concepts during class time and office hours.
--Serve as the main point of contact between faculty and students, managing communications and aiding academic success.
+
+* Facilitate instruction and managed grading for 60+ first-year MPH candidates in Qualitative Foundations, guiding them through key qualitative research concepts during class time and office hours.
+
+* Serve as the main point of contact between faculty and students, managing communications and aiding academic success.
 
 
-2. New York Community Hospital Academic Maternal Health Equity Partnership (NY-CHAMP) Study, New York, NY
+
+2. **New York Community Hospital Academic Maternal Health Equity Partnership (NY-CHAMP) Study, New York, NY**
+
 Living Health for Moms (LHMoms) Graduate Research Assistant (April 2026 – Present)
--Lead qualitative data collection for program evaluation efforts by conducting focus groups with doulas and in-depth interviews with postpartum patients across hospital and community settings.
--Develop a comprehensive maternal health literature review to support manuscript preparation, framing qualitative findings within perinatal intervention models and key drivers of severe maternal morbidity and mortality in New York City.
--Enhance study operations by optimizing doula and participant recruitment workflows, maintaining demographic tracking, and coordinating administrative protocols and data collection schedules among interdisciplinary teams.
+
+* Lead qualitative data collection for program evaluation efforts by conducting focus groups with doulas and in-depth interviews with postpartum patients across hospital and community settings. 
+
+* Develop a comprehensive maternal health literature review to support manuscript preparation, framing qualitative findings within perinatal intervention models and key drivers of severe maternal morbidity and mortality in New York City.
+
+* Enhance study operations by optimizing doula and participant recruitment workflows, maintaining demographic tracking, and coordinating administrative protocols and data collection schedules among interdisciplinary teams.
 
 
-3. RTI International, Center for Engagement Science and Applied Communication Research, Brooklyn, NY
+
+
+3. **RTI International, Center for Engagement Science and Applied Communication Research, Brooklyn, NY**
+
 Public Health Analyst II (August 2023 – Present)
--Deliver research support and manage project operations for federal (CDC, FDA, NIH) and state health communications and community partnership contracts spanning maternal and child health, HIV/STI prevention, and precision medicine, contributing to deliverables, task execution, and quality assurance.
--Contribute to qualitative and quantitative research efforts by conducting in-depth interviews and focus groups, drafting systematic literature reviews, and co-authoring mixed methods technical reports and manuscripts.
--Formulate and implement innovative communication strategies, including the development of survey instruments, social media listening analyses, and targeted messaging assets for diverse populations.
+
+* Deliver research support and manage project operations for federal (CDC, FDA, NIH) and state health communications and community partnership contracts spanning maternal and child health, HIV/STI prevention, and precision medicine, contributing to deliverables, task execution, and quality assurance.
+
+* Contribute to qualitative and quantitative research efforts by conducting in-depth interviews and focus groups, drafting systematic literature reviews, and co-authoring mixed methods technical reports and manuscripts.
+
+* Formulate and implement innovative communication strategies, including the development of survey instruments, social media listening analyses, and targeted messaging assets for diverse populations.
 
 
 
-# *Skills*
-R, NVivo, Dedoose, Qualtrics, REDCap, MTurk, Distiller, Jira, Smartsheet, scientific research, project management
 
 
-# *Honors and Awards*
--Columbia Public Health Scholar, 2025 to present. 
--Phi Beta Kappa Honors Society, 2022 to present. 
--Dean’s List, North Carolina State University, 2018 to 2022.  
--Pliner Scholarship, The Rosalyn Saltz and Norman Seymour Pliner Scholarship Fund, 2018 to 2022. 
--Abraham Holtzman Scholarship, College of Humanities and Social Sciences, North Carolina State University, 2019 to 2022. 
--Mayor’s Away of Durham, 2016. 
 
 
-# *Certifications*
-CITI Social & Behavioral Research, CITI Biomedical Research, CITI Good Clinical Practice, CITI Human Subjects Research, CITI Research with Minors, Project SAFE, LAUNCH Leadership, Pre Law Programme in Refugee & Migrant Protection 
 
 
-# *Interests*
-International travel, hot yoga, vegetarian cooking, classical ballet, knitting, attending movie theaters
+#### *Skills*
+* R, NVivo, Dedoose, Qualtrics, REDCap, MTurk, Distiller, Jira, Smartsheet, scientific research, project management
+
+
+#### *Certifications*
+* CITI Social & Behavioral Research, CITI Biomedical Research, CITI Good Clinical Practice, CITI Human Subjects Research, CITI Research with Minors, Project SAFE, LAUNCH Leadership, Pre Law Programme in Refugee & Migrant Protection 
+
+
+#### *Interests*
+* International travel
+
+* Hot yoga
+
+* Vegetarian cooking
+
+* Classical ballet
+
+* Knitting

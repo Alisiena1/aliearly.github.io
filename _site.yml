@@ -3,11 +3,6 @@ name: "About Ali Early"
 output_dir: "."
 navbar:
   title: "Home"
-  left:
-    - text: "Home"
-      href: index.html
-    - text: "Resume"
-      href: resume.html
   right:
     - text: "Email"
       href: mailto:ase2146@cumc.columbia.edu
@@ -19,6 +14,6 @@ navbar:
       href: https://github.com/Alisiena1
     - text: "Most Recent Publication"
       href: https://pubmed.ncbi.nlm.nih.gov/38279576/
-    - text: "Song Recomendation of the Week"
+    - text: "Song Rec of the Week!"
       href: https://open.spotify.com/track/3XmwAZpIMNpTJy8faw3ajD?si=50f46ff656824003 
 ---
