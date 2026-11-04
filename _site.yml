@@ -1,6 +1,10 @@
 ---
 name: "About Ali Early"
 output_dir: "."
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
 navbar:
   title: "Home"
   right:
@@ -15,5 +19,5 @@ navbar:
     - text: "Most Recent Publication"
       href: https://pubmed.ncbi.nlm.nih.gov/38279576/
     - text: "Song Rec of the Week!"
-      href: https://open.spotify.com/track/3XmwAZpIMNpTJy8faw3ajD?si=50f46ff656824003 
+      href: https://open.spotify.com/track/7jvCeWOSnJs2N3spqobWnO?si=892cd09116814559
 ---

@@ -5,7 +5,7 @@ output: html_document
 
 ## **Current Roles**
 
-1. **Columbia University, Mailman School of Public Health, New York, NY**
+#### **Columbia University, Mailman School of Public Health, New York, NY**
 
 Graduate Teaching Assistant (August 2026 – Present)
 
@@ -15,7 +15,7 @@ Graduate Teaching Assistant (August 2026 – Present)
 
 
 
-2. **New York Community Hospital Academic Maternal Health Equity Partnership (NY-CHAMP) Study, New York, NY**
+#### **New York Community Hospital Academic Maternal Health Equity Partnership (NY-CHAMP) Study, New York, NY**
 
 Living Health for Moms (LHMoms) Graduate Research Assistant (April 2026 – Present)
 
@@ -28,7 +28,7 @@ Living Health for Moms (LHMoms) Graduate Research Assistant (April 2026 – Pres
 
 
 
-3. **RTI International, Center for Engagement Science and Applied Communication Research, Brooklyn, NY**
+#### **RTI International, Center for Engagement Science and Applied Communication Research, Brooklyn, NY**
 
 Public Health Analyst II (August 2023 – Present)
 
@@ -46,21 +46,13 @@ Public Health Analyst II (August 2023 – Present)
 
 
 
-#### *Skills*
+### *Skills*
 * R, NVivo, Dedoose, Qualtrics, REDCap, MTurk, Distiller, Jira, Smartsheet, scientific research, project management
 
 
-#### *Certifications*
+### *Certifications*
 * CITI Social & Behavioral Research, CITI Biomedical Research, CITI Good Clinical Practice, CITI Human Subjects Research, CITI Research with Minors, Project SAFE, LAUNCH Leadership, Pre Law Programme in Refugee & Migrant Protection 
 
 
-#### *Interests*
-* International travel
-
-* Hot yoga
-
-* Vegetarian cooking
-
-* Classical ballet
-
-* Knitting
+### *Interests*
+* International travel, Hot yoga, Vegetarian cooking, Classical ballet, Knitting
