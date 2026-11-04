@@ -1,4 +1,3 @@
-name: "About Ali Early"
 output_dir: "."
 site: rmarkdown::default_site
 output:
@@ -6,14 +5,16 @@ output:
     theme: flatly
     includes:
       in_header: header.html
+      after_body: footer.html
 navbar:
+  title: "Ali Early"
   left:
     - text: "Home"
       icon: fa-home
-      href: home_index.html
+      href: index.html
     - text: "Resume"
       icon: fa-file-text
-      href: "resume.pdf"
+      href: resume.html
   right:
     - text: "Email"
       icon: fa-envelope fa-lg
@@ -21,9 +22,6 @@ navbar:
     - text: "LinkedIn"
       icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/ali-early/
-    - text: "ORCID"
-      icon: fa-orcid fa-lg
-      href: https://orcid.org/0000-0001-7325-9505
     - text: "GitHub"
       icon: fa-github fa-lg
       href: https://github.com/Alisiena1
