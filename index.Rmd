@@ -3,7 +3,7 @@ title: "Ali Early"
 output: html_document
 ---
 
-Hi there! Thanks for stopping by. 
+Hi there! Thanks for stopping by my website.
 
 <br>
 

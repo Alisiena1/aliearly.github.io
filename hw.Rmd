@@ -1,20 +1,27 @@
 ---
-title: "National Oceanic and Atmospheric Association (NOAA) Dashboard"
-subtitle: "1981-2010"
+title: "National Oceanic and Atmospheric Association (NOAA) Flexdashboard"
 output: 
   html_document:
     theme: flatly
     toc: true
     toc_float: true
 ---
+<br>
+<br>
 
-```{r setup, include=FALSE}
+#### *Task*
+Created a flexdashboard using plotly for that includes a scatterplot, line plot, and box plot as well as results related to NOAA data in NY from 1981 to 2010.
+
+<br>
+<br>
+
+```{r, echo = FALSE}
 library(tidyverse)
 library(plotly)
 library(lubridate)
 
 # Load and clean the NY NOAA data initially as well as convert units 
-noaa_df = read_csv("nynoaadat.csv") %>%
+noaa_df = read_csv("nynoaadat.csv", show_col_types = FALSE) %>%
   mutate(
     date = ymd(date),
     year = year(date),
@@ -29,9 +36,10 @@ noaa_df = read_csv("nynoaadat.csv") %>%
 
 
 ### **Figure 1: Daily Min. & Max. Temperature and Snowfall**
-#### Figure 1 is. scatter plot that examines the relationship between daily min, and max. temperatures across NY weather stations by snow vs. non-snow days.
+#### Figure 1 is. scatterplot that examines the relationship between daily min, and max. temperatures across NY weather stations by snow vs. non-snow days.
 
-```{r}
+```{r, echo = FALSE}
+# Mutate data for data viz task
 noaa_df %>%
   mutate(snow_status = if_else(snow > 0, "Snow Reported", "No Snow")) %>%
   plot_ly(
@@ -58,14 +66,17 @@ noaa_df %>%
 ```
 
 
-#### Figure 1 Results: This shows that when there were higher reported temperatures at NY Weather Stations, there was less reported/measured snowfall. Similarly, when there were less reported temperatures at NY Weather Stations, there was more reported/measured snowfall. This is a generally understood pattern in weather based on seasonality.
+#### Results: This shows that when there were higher reported temperatures at NY Weather Stations, there was less reported/measured snowfall. Similarly, when there were less reported temperatures at NY Weather Stations, there was more reported/measured snowfall. This is a generally understood pattern in weather based on seasonality.
 
+<br>
+<br>
 <br>
 <br>
 
 ### **Figure 2: Max. Temperature and Time**
 #### Figure 2 is. box plot that examines the relationship between max. temperatures in time across NY weather stations.
-```{r}
+```{r, echo = FALSE}
+# Mutate data for data viz task
 noaa_df %>%
   mutate(
     date = ymd(date),
@@ -97,15 +108,18 @@ noaa_df %>%
   )
 ```
 
-#### Figure 2 Results: The distribution of max. temperatures remained relatively consistent from 1981 to 2010. Although an increase may have been anticipated given current issue such as climate change, the station data across NY indicates stability in max. temperatures during the period of data collection. 
+#### Results: The distribution of max. temperatures remained relatively consistent from 1981 to 2010. Although an increase may have been anticipated given current issue such as climate change, the station data across NY indicates stability in max. temperatures during the period of data collection. 
 
+<br>
+<br>
 <br>
 <br>
 
 ### Figure 3: Average Daily Snowfall Over Time
 #### Figure 3 is a line plot that examines trends in average daily precipitation across NY weather stations from 1981 to 2010.
 
-```{r}
+```{r, echo = FALSE}
+# Mutate data for data viz task
 noaa_df %>%
   mutate(
     date = ymd(date),
@@ -138,4 +152,4 @@ noaa_df %>%
   )
 ```
 
-#### Figure 3 Results: The average daily snowfall is relative stability with minor year-to-year fluctuations across the data collection period. While annual precipitation totals varied slightly, the historical average remained consistent across NY weather stations.
+#### Results: The average daily snowfall is relative stability with minor year-to-year fluctuations across the data collection period. While annual precipitation totals varied slightly, the historical average remained consistent across NY weather stations.

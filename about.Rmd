@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
-output: html_document:
-   theme: flatly
+output: 
+  html_document:
     toc: true
     toc_float: true
 ---
@@ -22,7 +22,7 @@ Ali Early is a Master of Public Health candidate in Population and Family Health
 <br>
 <br>
 
-### **Current Roles**
+### Current Roles
 
 
 #### **Columbia University, Mailman School of Public Health, New York, NY**
@@ -33,7 +33,7 @@ Graduate Teaching Assistant (August 2026 – Present)
 
 * Serve as the main point of contact between faculty and students, managing communications and aiding academic success.
 
-
+<br>
 
 #### **New York Community Hospital Academic Maternal Health Equity Partnership (NY-CHAMP) Study, New York, NY**
 
@@ -45,8 +45,7 @@ Living Health for Moms (LHMoms) Graduate Research Assistant (April 2026 – Pres
 
 * Enhance study operations by optimizing doula and participant recruitment workflows, maintaining demographic tracking, and coordinating administrative protocols and data collection schedules among interdisciplinary teams.
 
-
-
+<br>
 
 #### **RTI International, Center for Engagement Science and Applied Communication Research, Brooklyn, NY**
 
@@ -61,7 +60,6 @@ Public Health Analyst II (August 2023 – Present)
 
 <br>
 <br>
-<br>
 
 
 #### *Skills*
@@ -74,10 +72,19 @@ Public Health Analyst II (August 2023 – Present)
 
 #### *Interests*
 * Hot yoga, Vegetarian Cooking, Knitting, Vanderpump Rules, Vanilla Matchas, Beli Reviews
+
+
 <br>
 <br>
 
-#### My LetterBoxd Top Four
+
+#### Most Recent Publication 
+* [Traumatic losses permeate daily emotional experiences: roles of daily uplifts and subjective age](https://iaap-journals.onlinelibrary.wiley.com/doi/10.1111/aphw.12530)
+
+<br>
+<br>
+
+#### My LetterBoxd Top Four Films
 1. [10 Things I Hate About You](https://www.imdb.com/title/tt0147800/)
 2. [A Star is Born](https://www.imdb.com/title/tt1517451/?ref_=fn_t_1)
 3. [Sliver Linings Playbook](https://www.imdb.com/title/tt1045658/?ref_=fn_t_1)
