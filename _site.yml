@@ -7,8 +7,14 @@ output:
       in_header: header.html
       after_body: footer.html
 navbar:
-  title: "Home"
+  title: ""
   left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About Me"
+      icon: fa-user
+      href: about.html
     - text: "Resume"
       icon: fa-file-text
       href: resume.pdf
@@ -16,15 +22,15 @@ navbar:
     - text: "Email"
       icon: fa-envelope fa-lg
       href: mailto:ase2146@cumc.columbia.edu
-    - text: "LinkedIn"
-      icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/ali-early/
     - text: "GitHub"
       icon: fa-github fa-lg
       href: https://github.com/Alisiena1
-    - text: "Recent Publication"
-      icon: fa-computer fa-lg
-      href: https://pubmed.ncbi.nlm.nih.gov/38279576/        
+    - text: "LinkedIn"
+      icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/ali-early/     
+    - text: "Publications"
+      icon: fa-file-text-o fa-lg
+      href: https://pubmed.ncbi.nlm.nih.gov/38279576/
     - text: "Song of the Week"
       icon: fa-spotify fa-lg
-      href: https://open.spotify.com/track/2JDmZZzBUmYNpfhuVRXAN1?si=afda1923ee3b4a87   
+      href: https://open.spotify.com/track/2JDmZZzBUmYNpfhuVRXAN1?si=afda1923ee3b4a87

@@ -3,14 +3,6 @@ title: "About Ali Early"
 output: html_document
 ---
 
-<br>
-<br>
-
-### Welcome
-
-
-<br>
-
 
 Hi there! Thanks for stopping by my site. 
 
