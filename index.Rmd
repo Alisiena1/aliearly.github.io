@@ -1,8 +1,7 @@
 ---
-title: "About Ali Early"
+title: "Ali Early"
 output: html_document
 ---
-
 
 Hi there! Thanks for stopping by my site. 
 
