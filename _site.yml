@@ -15,10 +15,13 @@ navbar:
     - text: "About Me"
       icon: fa-user
       href: about.html
+    - text: "Homework"
+      icon: fa-pencil
+      href: hw.html
+  right:
     - text: "Resume"
       icon: fa-file-text
       href: resume.pdf
-  right:
     - text: "Email"
       icon: fa-envelope fa-lg
       href: mailto:ase2146@cumc.columbia.edu
@@ -30,7 +33,7 @@ navbar:
       href: https://www.linkedin.com/in/ali-early/     
     - text: "Publications"
       icon: fa-file-text-o fa-lg
-      href: https://pubmed.ncbi.nlm.nih.gov/38279576/
+      href: https://orcid.org/0000-0001-7325-9505
     - text: "Song of the Week"
       icon: fa-spotify fa-lg
-      href: https://open.spotify.com/track/2JDmZZzBUmYNpfhuVRXAN1?si=afda1923ee3b4a87
+      href: https://open.spotify.com/track/1LzNfuep1bnAUR9skqdHCK?si=f8aad1f9acb84a0b

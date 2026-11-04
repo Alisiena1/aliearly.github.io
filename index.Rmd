@@ -3,8 +3,8 @@ title: "Ali Early"
 output: html_document
 ---
 
-Hi there! Thanks for stopping by my site. 
+Hi there! Thanks for stopping by. 
 
 <br>
 
-This serves as my professional portfolio for **[P8105 (Data Science I)](https://p8105.com/index.html)** at the [Mailman School of Public Health](https://www.publichealth.columbia.edu). 
+This serves as my professional and academic portfolio for **[P8105 (Data Science I)](https://p8105.com/index.html)** at the [Mailman School of Public Health](https://www.publichealth.columbia.edu).

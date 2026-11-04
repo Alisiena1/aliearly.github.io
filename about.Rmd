@@ -1,6 +1,9 @@
 ---
 title: "Curriculum Vitae"
-output: html_document
+output: html_document:
+   theme: flatly
+    toc: true
+    toc_float: true
 ---
 
 ### Summary of Professional Experiences

@@ -1,0 +1,141 @@
+---
+title: "National Oceanic and Atmospheric Association (NOAA) Dashboard"
+subtitle: "1981-2010"
+output: 
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(lubridate)
+
+# Load and clean the NY NOAA data initially as well as convert units 
+noaa_df = read_csv("nynoaadat.csv") %>%
+  mutate(
+    date = ymd(date),
+    year = year(date),
+    month = month(date, label = TRUE),
+    tmax = as.numeric(tmax) / 10,  
+    tmin = as.numeric(tmin) / 10,
+    prcp = as.numeric(prcp) / 10   
+  ) %>%
+  drop_na(tmax, tmin, snow) %>%
+  sample_n(5000) 
+```
+
+
+### **Figure 1: Daily Min. & Max. Temperature and Snowfall**
+#### Figure 1 is. scatter plot that examines the relationship between daily min, and max. temperatures across NY weather stations by snow vs. non-snow days.
+
+```{r}
+noaa_df %>%
+  mutate(snow_status = if_else(snow > 0, "Snow Reported", "No Snow")) %>%
+  plot_ly(
+    x = ~tmin, y = ~tmax, color = ~snow_status,
+    colors = c("#1b365d", "#6baed2"), type = "scatter", mode = "markers",
+    marker = list(size = 7, opacity = 0.6)
+  ) %>%
+  layout(
+    title = "Daily Min. & Max. Temperatures in NY (1981-2010)",
+    xaxis = list(
+      title = "Min. Temperature (C)", 
+      titlefont = list(color = "black"), 
+      tickfont = list(color = "black")
+    ),
+    yaxis = list(
+      title = "Max. Temperature (C)", 
+      titlefont = list(color = "black"), 
+      tickfont = list(color = "black")
+    ),
+    font = list(color = "black"), 
+    paper_bgcolor = "white",      
+    plot_bgcolor = "white"
+  )
+```
+
+
+#### Figure 1 Results: This shows that when there were higher reported temperatures at NY Weather Stations, there was less reported/measured snowfall. Similarly, when there were less reported temperatures at NY Weather Stations, there was more reported/measured snowfall. This is a generally understood pattern in weather based on seasonality.
+
+<br>
+<br>
+
+### **Figure 2: Max. Temperature and Time**
+#### Figure 2 is. box plot that examines the relationship between max. temperatures in time across NY weather stations.
+```{r}
+noaa_df %>%
+  mutate(
+    date = ymd(date),
+    year = as.factor(year(date)),
+    tmax = as.numeric(tmax) / 10
+  ) %>%
+  drop_na(tmax) %>%
+  plot_ly(
+    x = ~year, y = ~tmax, color = ~year,
+    colors = c("#1b365d", "#3498db", "#6baed2", "#9ecae0"), 
+    type = "box"
+  ) %>%
+  layout(
+    title = "Max. Temperature from 1981 to 2010 in NY)",
+    xaxis = list(
+      title = "Years",
+      titlefont = list(color = "black"),
+      tickfont = list(color = "black")
+    ),
+    yaxis = list(
+      title = "Max. Temperature (C)",
+      titlefont = list(color = "black"),
+      tickfont = list(color = "black")
+    ),
+    font = list(color = "black"),
+    paper_bgcolor = "white",
+    plot_bgcolor = "white",
+    showlegend = FALSE
+  )
+```
+
+#### Figure 2 Results: The distribution of max. temperatures remained relatively consistent from 1981 to 2010. Although an increase may have been anticipated given current issue such as climate change, the station data across NY indicates stability in max. temperatures during the period of data collection. 
+
+<br>
+<br>
+
+### Figure 3: Average Daily Snowfall Over Time
+#### Figure 3 is a line plot that examines trends in average daily precipitation across NY weather stations from 1981 to 2010.
+
+```{r}
+noaa_df %>%
+  mutate(
+    date = ymd(date),
+    year = year(date),
+    mean_prcp = as.numeric(prcp) / 10
+  ) %>%
+  group_by(year) %>%
+  summarize(annual_mean_prcp = mean(mean_prcp, na.rm = TRUE)) %>%
+  plot_ly(
+    x = ~year, y = ~annual_mean_prcp,
+    type = "scatter", mode = "lines+markers",
+    line = list(color = '#6baed2', width = 3),   
+    marker = list(size = 7, color = '#1b365d')     
+  ) %>%
+  layout(
+    title = "Mean Daily Snowfall By Year in NY (1981-2010)",
+    xaxis = list(
+      title = "Year",
+      titlefont = list(color = "black"),
+      tickfont = list(color = "black")
+    ),
+    yaxis = list(
+      title = "Snowfall (mm)",
+      titlefont = list(color = "black"),
+      tickfont = list(color = "black")
+    ),
+    font = list(color = "black"),
+    paper_bgcolor = "white",
+    plot_bgcolor = "white"
+  )
+```
+
+#### Figure 3 Results: The average daily snowfall is relative stability with minor year-to-year fluctuations across the data collection period. While annual precipitation totals varied slightly, the historical average remained consistent across NY weather stations.
