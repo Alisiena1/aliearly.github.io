@@ -7,6 +7,7 @@ output: html_document
 ### Welcome
 
 Hi there! Thanks for stopping by my site. 
+
 This website serves as my professional portfolio for **P8105 (Data Science I)**. 
 
 

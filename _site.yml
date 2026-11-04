@@ -11,7 +11,7 @@ navbar:
     - text: "Email"
       href: mailto:ase2146@cumc.columbia.edu
     - text: "LinkedIn"
-      href: www.linkedin.com/in/ali-early
+      href: https://www.linkedin.com/in/ali-early/ 
     - text: "ORCID"
       href: https://orcid.org/0000-0001-7325-9505
     - text: "GitHub"
